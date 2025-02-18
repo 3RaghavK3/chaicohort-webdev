@@ -1,0 +1,159 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #1A1A1A;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 0 auto;
+}
+
+h1 {
+  color: #FF6D6D;
+}
+
+.subtitle {
+  color: rgb(84, 80, 80);
+  font-weight: 600;
+}
+
+.pricing-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+  width: 60%;
+}
+
+.pricing-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  border-radius: 10px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.1);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  color: white;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.popular-tag {
+  position: absolute;
+  top: -15px;
+  background-color: #FFD93D;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.price-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.064);
+  padding: 5px 60px;
+  border-radius: 20px;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #FF6D6D;
+}
+
+.period {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  font-size: 0.8rem;
+  gap: 30px;
+}
+
+.features li {
+  color: white;
+  list-style-type: none;
+}
+
+.features li.disabled {
+  color: rgba(255, 255, 255, 0.432);
+}
+
+.join-btn {
+  font-weight: 600;
+  color: #FF6D6D;
+  border: 1px solid #FF6D6D;
+  background-color: rgba(255, 255, 255, 0.064);
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.join-btn:hover {
+  cursor: pointer;
+}
+
+.beginner {
+  background-color: #262626;
+}
+
+.warrior {
+  background-color: #312222;
+}
+
+.champion {
+  background-color: #312D1D;
+}
+
+.champion .price {
+  color: #FFDA3D;
+}
+
+.champion .join-btn {
+  color: #FFDA3D;
+  border: 1px solid #FFDA3D;
+}
+
+.champion .join-btn:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+.pricing-heading {
+  display: flex;
+}
+
+.pricing-container {
+  display: flex;
+  gap: 30px;
+  height: 80vh;
+  width: 80vw;
+  margin-left: 60px;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80%;
+  width: auto; 
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgb(201, 194, 194);
+  transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.pricing-card.popular {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  height: 100%;
+  margin-top: 0;
+  border: 2px solid #FF7800;
+}
+
+.popular-badge {
+  margin-top: -25px;
+  padding: 8px;
+  background-color: #FF7800;
+  color: white;
+  border-radius: 50px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.period {
+  opacity: 0.5;
+}
+
+.features {
+  text-align: center;
+  padding: 10px;
+}
+
+.features li {
+  font-size: 1.1rem;
+  color: rgba(31, 31, 29, 0.756);
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+.subscribe-btn {
+  background-color: #FF9533;
+  border: none;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.pricing-card:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 0px 25px 25px rgba(16, 16, 16, 0.3);
+}
+
+.pricing-card:hover .features li {
+  color: white;
+}
+
+.pricing-card:hover .subscribe-btn {
+  background-color: #FF7800;
+  color: white;
+}
+
+.subscribe-btn:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px rgb(248, 248, 248);
+}

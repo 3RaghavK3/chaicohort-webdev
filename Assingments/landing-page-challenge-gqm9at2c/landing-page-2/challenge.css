@@ -1,0 +1,128 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.756), rgba(0, 0, 0, 0.756)),
+    url("./assets/chaicohort.png");
+  background-position: bottom;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5% 3.5%;
+}
+
+.logo {
+  
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #00FF9D;
+
+}
+
+.logo img {
+  border-radius: 50%;
+  border: 3px solid #00FF9D;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  transition:transform 0.25 ease-in-out
+
+  
+}
+
+.menu a:hover {
+  cursor: pointer;
+  color: #00FF9D;
+  transform: scale(1.1);
+}
+
+
+
+.hero-content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.5%;
+  gap: 0.5rem;
+}
+
+.hero-content h1 {
+  color:#00FF9D ;
+}
+
+.hero-content p {
+  color: white;
+}
+
+.hero-content img {
+  border-radius: 10px;
+  height: 34;
+  border: 3px solid #00FF9D;;
+}
+
+.enroll-button {
+  padding: 0.75rem 3rem;
+  border-radius: 25px;
+  background-color: #00FF9D;
+  transition: transform 0.25 ease-in-out,background-color 0.25 ease-in-out,color 0.25 ease-in-out;
+ 
+}
+
+.enroll-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+
+.highlights {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1A1A1A;
+}
+
+.highlight-card {
+  border-radius: 20px;
+  background-color: #2A2A2A;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+  max-width: 250px;
+
+  
+  
+}
+
+.highlight-card h3 {
+  color: #00FF9D;
+}
+
+

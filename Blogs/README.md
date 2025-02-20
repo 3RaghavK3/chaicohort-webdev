@@ -1,6 +1,7 @@
 # 🌐 My Blog Articles
 
 ## ✨ Latest Posts
+- **Article #10**: [Conditional Statements in JavaScript](https://3raghavk3js.hashnode.dev/control-flow-in-javascript-if-else-and-switch-explained)) - February 20, 2025
 - **Article #9**: [Arrays Methods in JavaScript](https://3raghavk3js.hashnode.dev/arrays-methods-in-javascript) - February 16, 2025
 - **Article #8**: [Decoding CSS: CSS Specificity Algorithm](https://decoding-css.hashnode.dev/css-specificity-algorithm) - January 24, 2025
 - **Article #7**: [Decoding HTML: How to Create Forms in HTML - A Beginner's Guide](https://decoding-html.hashnode.dev/how-to-create-forms-in-html-a-beginners-guide) - January 23, 2025

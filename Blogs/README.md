@@ -1,6 +1,7 @@
 # 🌐 My Blog Articles
 
 ## ✨ Latest Posts
+- **Article #11**: [Understanding Objects in Javascript](https://3raghavk3js.hashnode.dev/understanding-objects-in-javascript) - February 21, 2025
 - **Article #10**: [Conditional Statements in JavaScript](https://3raghavk3js.hashnode.dev/control-flow-in-javascript-if-else-and-switch-explained) - February 20, 2025
 - **Article #9**: [Arrays Methods in JavaScript](https://3raghavk3js.hashnode.dev/arrays-methods-in-javascript) - February 16, 2025
 - **Article #8**: [Decoding CSS: CSS Specificity Algorithm](https://decoding-css.hashnode.dev/css-specificity-algorithm) - January 24, 2025

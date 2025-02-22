@@ -1,6 +1,8 @@
 # 🌐 My Blog Articles
 
 ## ✨ Latest Posts
+
+- **Article #12**: [JavaScript Memory Management: Pass by Value Vs Pass by Reference](https://3raghavk3js.hashnode.dev/javascript-memory-management-pass-by-value-pass-by-reference) - February 22, 2025
 - **Article #11**: [Understanding Objects in Javascript](https://3raghavk3js.hashnode.dev/understanding-objects-in-javascript) - February 21, 2025
 - **Article #10**: [Conditional Statements in JavaScript](https://3raghavk3js.hashnode.dev/control-flow-in-javascript-if-else-and-switch-explained) - February 20, 2025
 - **Article #9**: [Arrays Methods in JavaScript](https://3raghavk3js.hashnode.dev/arrays-methods-in-javascript) - February 16, 2025

@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Patrick Hand", static;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+body{
+    position: relative;
+}
+
+
+.heading{
+    font-size: 5rem;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+
+.container{
+    position: absolute;
+    border: 1px solid black;
+    height: 60vh;
+    width: 75vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+
+.inputarea{
+    word-wrap: break-word;
+    font-size: 2.5rem;
+    height: 100%;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.limit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    height: 50px;
+    width: 100px;
+}
+
+
+.add-red{
+    color:red;
+}
+
+
+@media screen and (max-width:600px){
+    .heading{
+        font-size: 3rem;
+    }
+}

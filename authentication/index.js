@@ -3,6 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv"
 import db from './utils/db.js'
 import userroutes from './routes/user.routes.js'
+import cookieParser from 'cookie-parser';
 
 dotenv.config()
 
@@ -11,7 +12,7 @@ const port = process.env.PORT || 2000
 const baseurl=`${process.env.BASE_URL}:${port}`
 
 
-
+app.use(cookieParser());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

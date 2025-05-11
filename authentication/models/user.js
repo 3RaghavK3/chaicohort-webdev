@@ -37,7 +37,9 @@ const userSchema = new mongoose.Schema({
     },
     verificationTokenExpiry: {
         type: Date
-    }
+    },
+    refreshToken:String,
+
 }, {
     timestamps: true
 });
@@ -64,8 +66,8 @@ userSchema.methods.comparePassword = async function(password) {
 };
 
 
-userSchema.methods.generateJWT=function(){
-    return jwt.sign({id:this._id},process.env.JWT_SECRET,{expiresIn:"10m"})
+userSchema.methods.generateJWT=function(secretkey,expiry){
+    return jwt.sign({id:this._id},secretkey,{expiresIn:expiry})
     
 }
     
